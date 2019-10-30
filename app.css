@@ -1,0 +1,47 @@
+body {
+    background: white;
+    /* font-family: "Nunito", sans-serif; */
+    font-family: "Arial", sans-serif;
+}
+
+
+ #mainNavbar { 
+    font-size: 1rem;
+    font-weight: 400;    
+}
+
+#mainNavbar .nav-link {
+    color: black;
+}
+
+#mainNavbar .nav-link:hover {
+    font-weight: 700;
+   
+}
+
+.navbar {
+    /* background: #9DD391; */
+}
+
+/* Hamburger Icon */
+.navbar-toggler{
+    border: none;
+    float: auto;
+}
+
+#header {
+    background: url(imgs/bhsone.jpg) center center / cover no-repeat;
+    color: white;
+
+}
+
+.jumbotron {
+    height: 100vh;
+}
+
+#homeContent {
+    color: white;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
