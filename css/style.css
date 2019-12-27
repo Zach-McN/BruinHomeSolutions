@@ -1,0 +1,25 @@
+body {
+    margin-top: 107px;
+    /* padding-bottom: 70px; */
+}
+
+.bg-main-green {
+    background-color: rgb(157, 211, 145);
+}
+
+footer {
+    margin: 0px;
+}
+
+.color-invert {
+    filter: invert(1);
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.navbar .nav-item {
+    font-size: 1.25rem;
+    padding-right: 10px;
+}

@@ -1,97 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- META tags -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
-   
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="app.css">
-
-
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Bruin Home Solutions</title>
 </head>
+
 <body>
 
-    <!-- NAVIGATION BAR -->
-    <nav id="mainNavbar" class="navbar navbar-light navbar-expand-lg fixed-top">
-        <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navLinks">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-                <li class="nav-item">
-                    <a href="#" class="nav-link nav-active">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">MEET THE TEAM</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">FEATURED PROJECTS</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">PRESS</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">APPLY</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">SPONSOR US</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">CONTACT US</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">WATER AUDITS</a>
-                </li>
-            </ul>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-4 shadow">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="imgs/BHSBlackLogo.png" width="50" height="50">
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="team.html
+                        " class="nav-link">Meet The Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="apply.html" class="nav-link">Join</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ContactUs.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBkDgp_m36Cof_YUILBMyR8F3pPMxIumkw3UD1Br6lIR763A/viewform"
+                            target="_blank" class="nav-link">Water Audits</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-      
 
-
-
-    <!-- Header -->
-        <!-- text-center  -->
-    <section id="header" class="jumbotron jumbotron-fluid text-center"> 
-        <div class="mt-5">
-            <img src="imgs/White-Letterhead-Logo.png" alt="The Bruin Home Solutions Logo">
-            <h1 class="display-4 text-center">Next Era Living</h1>
-            <a href="#" class="btn btn-default btn-lg">JOIN THE TEAM</a>
-            <a href="#" class="btn btn-default btn-lg">SUPPORT THE TEAM</a>
-            <a href="#" class="btn btn-default btn-lg">CONTACT US</a>
+    <!-- MAIN SHOW CASE -->
+    <section id="main-showcase" class="d-flex justify-content-center align-items-center">
+        <div id="overlay">
+            <div class="container">
+                <div class="column text-center text-white">
+                    <img src="imgs/BHSWhiteLogo.png" alt="" class="img-fluid d-none d-sm-block" id="showcase-logo">
+                    <h1 class="display-2">Bruin Home Solutions</h1>
+                    <p class="lead display-4 d-none d-lg-block">Next Era Living</p>
+                    <div class="row justify-content-center">
+                        <a href="#" class="btn btn-outline-dark btn-md text-white m-2">JOIN THE TEAM</a>
+                        <a href="#" class="btn btn-outline-dark btn-md text-white m-2">SUPPORT THE TEAM</a>
+                        <a href="#" class="btn btn-outline-dark btn-md text-white m-2">CONTACT US</a>
+                    </div>
+                    <div class="row justify-content-center mt-3">
+                        <a href="https://www.facebook.com/bruinhomesolutions/" class="mx-2"><img src="imgs/facebook.svg"
+                                class="color-invert"></a>
+                        <a href="https://www.linkedin.com/company/bruinhomesolutions" class="mx-2"><img
+                                src="imgs/linkedinlogo.svg" class="color-invert"></a>
+                        <a href="https://www.instagram.com/bruinhomesolutions/" class="mx-2"><img
+                                src="imgs/instagramlogo.svg" class="color-invert"></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-
-
-    <section id="Mission Statement">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio laudantium praesentium corpor
-            is, asperiores numquam ut explicabo sed delectus expedita unde alias nostrum eos porro error, assumenda iu
-            re. Exercitationem, autem amet?</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio laudantium praesentium corpor
-                    is, asperiores numquam ut explicabo sed delectus expedita unde alias nostrum eos porro error, assumenda iu
-                    re. Exercitationem, autem amet?</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio laudantium praesentium corpor
-                            is, asperiores numquam ut explicabo sed delectus expedita unde alias nostrum eos porro error, assumenda iu
-                            re. Exercitationem, autem amet?</p>
-                        
-
-
+    <!-- MISSION STATEMENT -->
+    <section id="mission-statement">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h1>Our Mission</h1>
+                    <p>Here at Bruin Home Solutions (BHS), we're a student organization working to spearhead the
+                        movement toward a greener future at UCLA by engaging motivated students in a number of
+                        multifaceted sustainability initiatives and to create lasting quantifiable change.</p>
+                    <a href="#" class="btn btn-outline-dark mr-2 mb-2">LEARN MORE</a>
+                    <a href="#" class="btn btn-outline-dark mr-2 mb-2">NEWSLETTER ARCHIVES</a>
+                </div>
+                <div class="col d-none d-md-block">
+                    <img class="img-fluid" src="imgs/gabe.jpg">
+                    <small class="text-muted"><em>Student Gabe Blum on a GRID Alternatives volunteer
+                            day.</em></small>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements">
+        <div class="green-across">
+            <div id="plant-bg">
+            </div>
+        </div>
+        <div class="container" style="height:450px;">
+            <div id="achievements-text" class="row justify-content-end">
+                <div class="col-6 align-items-center">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, quas voluptatibus. Atque
+                        perspiciatis blanditiis sunt molestias cupiditate aliquid ullam et repellendus nihil nostrum
+                        provident, corrupti error, magni eaque eligendi reprehenderit!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR PEOPLE -->
+    <section id="our-people">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h1>Our People</h1>
+                    <p>We are a group of student engineers, scientists, designers and entrepreneurs collaborating for a
+                        better tomorrow. 124 members. 10 teams.</p>
+                    <a href="#" class="btn btn-outline-dark mr-2 mb-2">MEET THE TEAM</a>
+                </div>
+                <div class="col d-none d-md-block">
+                    <img class="img-fluid" src="imgs/teamPhoto.png">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- SPONSORS -->
+        <section id="sponsors">
+            <div class="container text-center">
+                <h3 class="display-5">Thank you to our sponsors</h1>
+                    <hr>
+                    <img src="imgs/bhs-sponsors-2018.jpg" class="img-fluid">
+            </div>
 
 
+        </section>
 
+        <!--FOOTER-->
+        <footer class="p-4 bg-main-green text-white">
+            <div class="container text-center">
+                <a href="https://facebook.com" class="mx-2"><img src="imgs/facebook.svg" class="color-invert"></a>
+                <a href="https://instagram.com" class="mx-2"><img src="imgs/instagramlogo.svg" class="color-invert"></a>
+                <a href="https://twitter.com" class="mx-2"><img src="imgs/twitterlogo.svg" class="color-invert"></a>
+                <p class="lead mt-2"> &copy; 2019 Copyright: Bruin Home Solutions. All rights reserved.</p>
+            </div>
+        </footer>
 
-    <!-- Bootstrap dependencies -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!--Libraries-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>

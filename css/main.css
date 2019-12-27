@@ -1,0 +1,95 @@
+
+#main-showcase {
+    position: relative;
+    background: url("../imgs/bhsone.jpg");
+    min-height: 500px;
+    background-position: center;
+}
+
+@media (min-width: 576px) {
+    #main-showcase {
+        min-height: 800px;
+    }
+}
+
+#main-showcase #overlay {
+    background: rgba(157, 211, 145, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#main-showcase h1 {
+    font-size: 5em;
+
+}
+
+#main-showcase>#overlay>.container {
+    margin-top: 10px;
+}
+
+@media (min-width: 400px) {
+    #main-showcase>#overlay>.container {
+        margin-top: 60px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    #main-showcase>#overlay>.container {
+        margin-top: 60px;
+    }
+}
+
+#main-showcase #showcase-logo {
+    /* centers */
+    float: none;
+    margin: 0 auto;
+}
+
+#mission-statement {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.img-left {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    bottom: -15px;
+    width: calc( 50vw - 15px);
+    background: red;
+}
+
+#contact-form {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+
+#achievements .green-across {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    /* border: 2px solid red; */
+    background-color: rgb(157, 211, 145);
+}
+
+#achievements #plant-bg {
+    position: absolute;
+    /* top: 10px; */
+    right: 51%;
+    width: 50%;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#our-people .container {
+    margin-bottom: 50px;;
+
+}
