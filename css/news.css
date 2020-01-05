@@ -1,20 +1,18 @@
-body {
-    background: rgba(157, 211, 145);
-}
 
 .navbar {
     background: rgba(157, 211, 145, 0.8);
 }
 
-#apply-showcase {
+#news-showcase {
     position: relative;
     background: url("../imgs/workplacebg11.jpg");
+    /* background-size: 100%; */
     background-repeat: no-repeat;
     min-height: 725px;
     background-position: bottom;
 }
 
-#apply-showcase #apply-overlay {
+#news-showcase #news-overlay {
     background: rgba(157, 211, 145, 0.0);
     position: absolute;
     top: 0;
@@ -23,6 +21,14 @@ body {
     height: 100%;
 }
 
-#apply-showcase > #apply-overlay > .container {
+#news-showcase > #news-overlay > .container {
     margin-top: 70px;
+}
+
+#accolades {
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 40px;
 }

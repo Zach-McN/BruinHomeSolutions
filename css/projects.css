@@ -1,0 +1,82 @@
+
+#projects-showcase {
+    position: relative;
+    background: url("../imgs/boop.jpg");
+    min-height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+
+}
+
+@media (min-width: 700px) {
+    #projects-showcase {
+        min-height: 400px;
+    }
+}
+
+
+@media (min-width: 900px) {
+    #projects-showcase {
+        min-height: 700px;
+    }
+}
+
+
+#projects-showcase .container #showcase-text{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+#projects-showcase p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+#projects-showcase p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+#projects p {
+    color: rgba(0,0,0, 0.7);
+    font-size: 1.2em;
+    margin-top: 25px;
+}
+
+#projects .fa-car-side {
+    color: rgba(0,0,0, 0.7);;
+}
+
+#projects .fa-tint {
+    color: #579AD5;
+}
+
+#projects .fa-leaf {
+    color: #65D657;
+}
+
+#projects .fa-award {
+    color: #F2A184;
+}
+
+#projects .fa-fill-drip {
+    color: #666DFF;
+}
+
+#projects .fa-home {
+    color: #F8D059;
+}
+
+#projects .fa-bicycle {
+    color: #EA59FA;
+}
+
+#projects .fa-building {
+    color: #8A66B7;
+}

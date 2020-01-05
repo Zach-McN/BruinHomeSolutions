@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/contactUs.css">
-
+    <link rel="stylesheet" href="css/news.css">
     <title>Bruin Home Solutions</title>
 </head>
 
 <body>
+
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-4 shadow">
         <div class="container">
@@ -51,34 +51,60 @@
         </div>
     </nav>
 
-    <!-- CONTACT US SHOWCASE -->
-    <section id="contactus-showcase" class="d-flex justify-content-center align-items-center">
-        <div id="contactus-overlay">
+    <!-- NEWS SHOW CASE -->
+    <section id="news-showcase" class="d-flex justify-content-center align-items-center">
+        <div id="news-overlay">
             <div class="container">
-                <div class="column text-center text-white">
-                    <h1>Contact Us</h1>
-                    <hr>
+                <div class="column text-center">
+                    <h1 class="display-2">PRESS</h1>
+                    <p>See how BHS is being recognized across the LA community</p>
+                    <div class="row justify-content-center">
+                        <a href="https://www.nba.com/lakers/community/1718-ccotm-winners"
+                            class="btn btn-outline-dark btn-lg m-2 ">NBA-MARCH 2018</a>
+                    </div>
+                    <div class="row justify-content-center">
+                        <a href="https://dailybruin.com/2017/03/07/bruins-build-zero-emission-self-sustainable-home-for-solar-decathlon/"
+                            class="btn btn-outline-dark btn-lg m-2 ">DAILY BRUIN - MARCH 2017</a>
+
+                    </div>
+                    <div class="row justify-content-center">
+                        <a href="http://dailybruin.com/2016/04/15/ucla-team-constructing-sustainable-house-for-2019-solar-decathlon/"
+                            class="btn btn-outline-dark btn-lg m-2 ">DAILY BRUIN - APRIL 2016</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact-form">
-        <div class="container pt-3">
-            <h1> Contact the Team </h1>
-            <div class="my-5">
-                <form>
-                    <div class="form-group">
-                        <label class="h4" for="email">Email Address</label>
-                        <input type="email" id="email" class="form-control" placeholder="name@example.com">
-                        <small class="text-muted">Must be a real email.</small>
-                    </div>
-                    <div class="form-group">
-                        <label class="h4" for="textarea">Message</label>
-                        <textarea id="textarea" rows="12" class="form-control"></textarea>
-                        <small class="text-muted">There must be a message.</small>
-                    </div>
-                </form>
+    <!-- ACCOLADES -->
+    <section id="accolades">
+        <div class="container text-center">
+            <h1>Accolades</h1>
+            <div class="row my-5">
+                <div class="col-12 col-lg-6 text-left">
+                    <h2>Sustainability Innovation Challenge</h2>
+                    <p>Our aquaponics team won first place and a $50,000 grant in the UCLA Sustainability Innovation
+                        Challenge for their proposal to build an aquaponics system at the Sunset Canyon Recreation
+                        Center. Once completed, the facility will yield tons of fresh fruits and vegetables to students.
+                        The produce will reach the students via the UCLA dining halls and the Student Activities Center
+                        Food Closet.</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img class="img-fluid" src="../imgs/gabe.jpg">
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-6">
+                    <img class="img-fluid" src="../imgs/gabe.jpg">
+                </div>
+                <div class="col-12 col-lg-6 text-left">
+                    <h2>Community Champion Award</h2>
+                    <p>Riley Kuffner, founder and president of Bruin Home Solutions, received the LG Solar Community
+                        Champion award during halftime of a Lakers game this past March. This award was given monthly
+                        during the 2017-18 NBA season and recognizes individuals in the Los Angeles community that are
+                        advancing environmental conservation and sustainability. Big thanks to all of BHS’ student
+                        volunteers, advisors, sponsors, and partners that have made our work possible!</p>
+                </div>
             </div>
         </div>
     </section>
@@ -97,8 +123,7 @@
         </div>
     </footer>
 
-
-    <!--Libraries DO NOT DELETE-->
+    <!--Libraries-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

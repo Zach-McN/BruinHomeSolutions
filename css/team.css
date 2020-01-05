@@ -28,7 +28,6 @@
     margin-top: -50px;
 }
 
-
 #team .card:hover {
     background:rgb(157, 211, 145);
     color:#fff;
@@ -41,12 +40,6 @@
     border-right: 0 none;
     color: rgb(80,80,80);
 }
-/* 
-#vision #vision-text {
-    background: red;
-    left: 25%;
-} */
-
 
 #team-showcase i {
     display: inline;
