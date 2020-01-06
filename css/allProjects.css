@@ -3,5 +3,13 @@
 }
 
 #main-content .row {
-    margin-top: 100px;
+    margin-top: 200px;
+}
+
+#utility-content {
+    margin-top: 140px;
+}
+
+#utility-content li {
+    color: rgba(0, 0, 0, 0.5);
 }

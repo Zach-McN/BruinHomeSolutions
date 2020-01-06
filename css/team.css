@@ -5,7 +5,6 @@
 #team-showcase {
     position: relative;
     background: url("../imgs/workplacebg11.jpg");
-    /* background-size: 100%; */
     background-repeat: no-repeat;
     min-height: 600px;
     background-position: bottom;
@@ -20,17 +19,12 @@
     height: 100%;
 }
 
-#team-showcase > #team-overlay > .container {
+#team-showcase>#team-overlay>.container {
     margin-top: 70px;
 }
 
-#team img {
-    margin-top: -50px;
-}
-
-#team .card:hover {
-    background:rgb(157, 211, 145);
-    color:#fff;
+#team-showcase i {
+    display: inline;
 }
 
 .list-group li {
@@ -38,9 +32,55 @@
     border-bottom: 0 none;
     border-left: 0 none;
     border-right: 0 none;
-    color: rgb(80,80,80);
+    color: rgb(80, 80, 80);
 }
 
-#team-showcase i {
-    display: inline;
+#people img {
+    width: 180px;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: auto;
+    height: 300px;
+    perspective: 1000px;
+
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 5px;
+}
+
+.flip-card-front {
+    background-color: rgba(157, 211, 145);
+    color: white;
+}
+
+.flip-card-back {
+    background-color: #f2f2f2;
+    color: black;
+    transform: rotateY(180deg);
+    height: 300px;
+    font-size: 0.9rem;
 }
