@@ -3,19 +3,19 @@ body {
 }
 
 .navbar {
-    background: rgba(157, 211, 145, 0.8);
+    background: rgba(255, 255, 255, 1);
 }
 
 #apply-showcase {
     position: relative;
-    background: url("../imgs/workplacebg11.jpg");
+    background: url("../imgs/nice_meeting.jpg");
     background-repeat: no-repeat;
     min-height: 725px;
-    background-position: bottom;
+    background-position: center;
 }
 
 #apply-showcase #apply-overlay {
-    background: rgba(157, 211, 145, 0.0);
+    background: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: 0;
     left: 0;

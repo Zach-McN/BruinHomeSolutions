@@ -2,7 +2,6 @@
     border: none;
 }
 
-
 #projects-showcase {
     position: relative;
     background: url("../imgs/boop.jpg");
@@ -11,13 +10,6 @@
     background-repeat: no-repeat;
     background-position: left;
     position: relative;
-
-}
-
-@media (min-width: 700px) {
-    #projects-showcase {
-        min-height: 400px;
-    }
 }
 
 
@@ -27,33 +19,43 @@
     }
 }
 
-
-#projects-showcase .container #showcase-text{
+#projects-showcase .container #showcase-text {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-
 }
 
 #projects-showcase p {
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-weight: 400;
 }
 
-#projects-showcase p {
-    font-size: 1.2em;
-    font-weight: 400;
+@media (min-width: 700px) {
+    #projects-showcase {
+        min-height: 400px;
+    }
+    #projects-showcase p {
+        font-size: 1.3rem;
+    }
+    #projects-showcase .container #showcase-text {
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }    
 }
+
+
+
 
 #projects p {
-    color: rgba(0,0,0, 0.7);
+    color: rgba(0, 0, 0, 0.7);
     margin-top: 25px;
 }
 
 #projects .fa-car-side {
-    color: rgba(0,0,0, 0.7);;
+    color: rgba(0, 0, 0, 0.7);
+    ;
 }
 
 #projects .fa-tint {

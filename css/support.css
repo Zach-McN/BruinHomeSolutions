@@ -1,0 +1,28 @@
+body {
+    background: rgba(157, 211, 145);
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 1);
+}
+
+#apply-showcase {
+    position: relative;
+    background: url("../imgs/workplacebg7.jpg");
+    background-repeat: no-repeat;
+    min-height: 725px;
+    background-position: center;
+}
+
+#apply-showcase #apply-overlay {
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#apply-showcase > #apply-overlay > .container {
+    margin-top: 70px;
+}

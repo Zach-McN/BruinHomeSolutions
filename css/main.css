@@ -84,24 +84,32 @@
     background: none;
 }
 
+#mainList {
+    margin-top: 50px;
+}
+
+.list-group-item {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    margin-top: 2px;
+}
+
 @media (min-width: 768px) {
     #achievements #plant-bg
     {
         background-image: url("../imgs/hydro.png");
     }
+    .list-group-item
+    {
+        font-size: 1.3rem;
+    }
+    #mainList {
+        margin-top: 25px;
+    }
 }
 
-
-#mainList {
-    margin-top: 25px;
-}
-.list-group-item {
-    background: none;
-    border: none;
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 1.3rem;
-    margin-top: 2px;
-}
 
 #our-people .container {
     margin-bottom: 50px;
