@@ -23,3 +23,11 @@ footer {
     font-size: 1.25rem;
     padding-right: 10px;
 }
+
+.green-divider {
+    background:rgb(157, 211, 145);
+    width: 600px;
+    height: 4px;
+    margin: 0 auto;
+    
+}
