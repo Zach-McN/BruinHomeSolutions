@@ -23,6 +23,10 @@ body {
     height: 100%;
 }
 
+h1 {
+    /* font-size: 0.2rem; */
+}
+
 #apply-showcase > #apply-overlay > .container {
     margin-top: 70px;
 }
