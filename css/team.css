@@ -54,11 +54,14 @@
     width: 100%;
     height: 100%;
     text-align: center;
+    -webkit-transition: transform 0.8s;
     transition: transform 0.8s;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
 
 .flip-card:hover .flip-card-inner {
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
@@ -79,6 +82,7 @@
 .flip-card-back {
     background-color: #f2f2f2;
     color: black;
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     height: 300px;
     font-size: 0.9rem;
