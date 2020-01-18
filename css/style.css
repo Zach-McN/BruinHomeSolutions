@@ -4,7 +4,9 @@ body {
 }
 
 .bg-main-green {
-    background-color: rgb(157, 211, 145);
+    /* background-color: rgb(157, 211, 145); */
+    /* #2392EA */
+    background-color: rgb(35, 146, 234);    
 }
 
 footer {
@@ -25,7 +27,8 @@ footer {
 }
 
 .green-divider {
-    background:rgb(157, 211, 145);
+    /* background:rgb(157, 211, 145); */
+    background-color: rgb(35, 146, 234);    
     width: 600px;
     height: 4px;
     margin: 0 auto;
