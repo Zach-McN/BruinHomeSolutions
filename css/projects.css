@@ -25,28 +25,15 @@
 }
 
 #projects-showcase p {
-    font-size: 0.9em;
-    font-weight: 400;
+    font-size: 1.3rem;
 }
-
-@media (min-width: 700px) {
-    #projects-showcase {
-        min-height: 400px;
-    }
-    #projects-showcase p {
-        font-size: 1.3rem;
-    }
-    #projects-showcase .container #showcase-text {
-        background: rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-    }    
-}
-
-
-
+#projects-showcase .container #showcase-text {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}    
 
 #projects p {
     color: rgba(0, 0, 0, 0.7);

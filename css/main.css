@@ -93,7 +93,7 @@
     background: none;
     border: none;
     color: rgba(255, 255, 255, 0.9);
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 2px;
 }
 
@@ -104,13 +104,19 @@
     }
     .list-group-item
     {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     #mainList {
         margin-top: 25px;
     }
 }
 
+@media (min-width: 980px) {
+    .list-group-item
+    {
+        font-size: 1.3rem;
+    }
+}
 
 #our-people .container {
     margin-bottom: 50px;
