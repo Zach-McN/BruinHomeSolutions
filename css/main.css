@@ -93,8 +93,15 @@
     background: none;
     border: none;
     color: rgba(255, 255, 255, 0.9);
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 2px;
+}
+
+@media (min-width: 500px) {
+    .list-group-item
+    {
+        font-size: 1.2rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -102,10 +109,7 @@
     {
         background-image: url("../imgs/hydro.png");
     }
-    .list-group-item
-    {
-        font-size: 1.2rem;
-    }
+    
     #mainList {
         margin-top: 25px;
     }
